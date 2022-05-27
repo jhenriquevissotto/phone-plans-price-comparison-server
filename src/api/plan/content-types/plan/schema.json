@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "plans",
+  "info": {
+    "singularName": "plan",
+    "pluralName": "plans",
+    "displayName": "plan",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug_en": {
+      "type": "string",
+      "unique": true
+    },
+    "slug_pt": {
+      "type": "string",
+      "unique": true
+    },
+    "name_en": {
+      "type": "string"
+    },
+    "name_pt": {
+      "type": "string"
+    },
+    "freeMinutes": {
+      "type": "integer"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "premium": {
+      "type": "decimal"
+    }
+  }
+}
